@@ -1,0 +1,66 @@
+/* Paper objects carry the story, rather than displaying every clue as UI copy. */
+.child-note{margin:28px 0 12px;transform:rotate(-1deg)}
+.child-note img{width:100%;height:auto;display:block;border-radius:9px;box-shadow:2px 6px 13px #66563715}
+.child-note figcaption{font-size:10px;color:#9b9279;text-align:center;letter-spacing:1px;margin:14px 0}
+.note-transcription{color:#8e9277;font-size:11px;border-bottom:1px dashed #d5d6bf;padding:6px 0 12px;margin-bottom:15px}
+.note-transcription summary{cursor:pointer;list-style-position:inside;min-height:30px;line-height:30px}
+.note-transcription p{font-family:var(--serif);font-size:17px;line-height:1.9;padding:12px 18px;background:#f0efda;margin:5px 0 0;border-radius:5px;color:#6f745b}
+dialog.prologue-dialog{width:min(690px,calc(100% - 32px));background:#f6efdc;border-color:#bdb393;padding:38px 44px 22px;box-shadow:0 30px 100px #20282066}
+.prologue-dialog::backdrop{background:#1b271fc2;backdrop-filter:blur(8px)}
+.prologue-dialog .modal-heading{border-bottom:1px solid #d6cfb6;padding-bottom:4px}
+.prologue-dialog .modal-heading h2{font-size:31px;letter-spacing:2px;margin-bottom:17px}
+.prologue-dialog .modal-heading .eyebrow{color:#9b987e}
+.prologue-header{display:flex;justify-content:space-between;gap:12px;font:9px var(--mono);letter-spacing:1.6px;color:#a09b80;padding:18px 0}
+.prologue-visual{height:166px;display:flex;align-items:center;justify-content:center;margin:0 0 25px;background:radial-gradient(ellipse at center,#d9d1b745,transparent 70%)}
+.sketch-page{height:153px;width:185px;background:#fff8e7;transform:rotate(-6deg);border:1px solid #d1c7a6;box-shadow:4px 6px 0 #b9b08f22;position:relative;display:flex;align-items:center;flex-direction:column;justify-content:center}
+.sketch-page:before{content:"";position:absolute;top:-7px;left:57px;width:63px;height:17px;background:#c5c4a478;transform:rotate(3deg)}
+.sketch-page>span{font:6px var(--mono);color:#a7a086;letter-spacing:1px}
+.sketch-page>.bubu-portrait{width:85px;height:102px;filter:sepia(.35) saturate(.55)}
+.sketch-page>i{font:10px var(--serif);color:#9e977d}
+.prologue-envelope{border:1px solid #c7bea3;background:#eee6ce;width:295px;padding:20px 24px;box-shadow:4px 6px 0 #b9b08f15;transform:rotate(-3deg);position:relative}
+.prologue-envelope>.icon{position:absolute;right:22px;top:22px;width:36px;height:36px;color:#9b9d7b;stroke-width:1}
+.prologue-envelope>span{display:block;font-family:var(--serif);font-size:19px;margin-bottom:13px}
+.prologue-envelope>small{display:block;font-size:10px;color:#8d8d73;margin-bottom:25px}
+.prologue-envelope>b{font:9px var(--mono);color:#a3947c;display:block;letter-spacing:1px}
+.prologue-link{display:flex;align-items:center;flex-direction:column;border:1px solid #c5ccac;background:#e6ead6;padding:24px 35px;min-width:260px;box-shadow:3px 5px 0 #a9b39022;border-radius:4px}
+.prologue-link>.icon{color:#7b9765;width:28px;height:28px;margin-bottom:8px}
+.prologue-link>span{font-family:var(--serif);font-size:21px;letter-spacing:1px}
+.prologue-link>small{font-size:9px;color:#8f9b7d;margin:10px 0}
+.prologue-link>i{font-family:var(--serif);font-size:12px;font-style:normal;color:#7f9070}
+.prologue-date{font:10px var(--mono);letter-spacing:1px;color:#99927a}
+.prologue-scene h3{font-family:var(--serif);font-size:27px;color:#525b43;margin:14px 0 20px;letter-spacing:1px;line-height:1.6}
+.prologue-scene>p{color:#82836d;font-size:13px;line-height:2.05;margin-bottom:15px}
+.prologue-scene>blockquote{background:#e9ead7;border-left:2px solid #b0b695;color:#6d7856;font-size:18px;line-height:1.9;margin:22px 0 24px;padding:15px 20px}
+.prologue-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.prologue-dots{display:flex;align-items:center;gap:6px}
+.prologue-dots>span{width:5px;height:5px;border-radius:50%;background:#d0d3b8}
+.prologue-dots>.current{background:#799164;width:18px;border-radius:5px}
+.prologue-navigation{display:flex;align-items:center;gap:12px}
+.prologue-navigation>.btn{font-size:12px;min-height:44px;padding:12px 22px}
+.prologue-footnote{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #dcd7bf;margin-top:23px;padding-top:7px;gap:12px}
+.prologue-footnote>span{font-size:9px;color:#a6a18a;line-height:1.8}
+.prologue-footnote>.btn{font-size:10px;color:#969d81;padding:8px 0;min-height:34px;white-space:nowrap}
+dialog.archive-photo-dialog{width:min(850px,calc(100% - 30px));background:#eee8d5;border-color:#a7a18b}
+.archive-photo{margin:23px 0 20px;padding:10px 10px 0;background:#e1dac2;border:1px solid #bab29a;box-shadow:3px 5px 0 #b5aa8b29;transform:rotate(-.6deg)}
+.archive-photo img{width:100%;height:auto;display:block;aspect-ratio:3/2;border-radius:3px}
+.archive-photo figcaption{font:8px var(--mono);letter-spacing:1.5px;color:#8f826d;padding:14px 6px;line-height:1.6}
+.photo-inspect{display:flex;flex-wrap:wrap;gap:9px;padding:7px 0 16px}
+.photo-inspect>button{border:1px solid #c5bfa3;border-radius:4px;padding:10px 13px;font-family:var(--serif);font-size:14px;min-height:40px;background:#f6f0db;color:#857e66}
+.photo-inspect>button[aria-pressed=true]{background:#dee3cb;border-color:#9caa7f;color:#60724c}
+.photo-detail{background:#e4e4d0;border:1px solid #cdd1b5;border-radius:5px;padding:19px 22px}
+.photo-detail>h3{font-family:var(--serif);font-size:20px;font-weight:400;margin:0 0 11px;color:#657354}
+.photo-detail>p{font-size:12px;line-height:1.95;color:#7f826c;margin:0}
+.tape-photo-link{display:block;text-align:left;width:100%;padding:7px 7px 0;background:#e8e2cb;border:1px solid #c3bca2;transform:rotate(-.6deg);margin:20px 0 25px}
+.tape-photo-link>img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block}
+.tape-photo-link>span{display:block;font-size:10px;letter-spacing:1px;color:#8b8268;padding:12px 7px;line-height:1.7}
+.tape-photo-link:hover{box-shadow:3px 5px 0 #aea78e25;transform:rotate(0)}
+.found-photo-link{display:flex;align-items:center;gap:21px;text-align:left;padding:21px 23px;width:calc(100% - 20px);margin:22px 10px 0;background:#e9e6d1;border:1px dashed #b0b297;border-radius:5px;color:#7b8163}
+.found-photo-link>span{display:flex;gap:8px;align-items:center;font-size:10px}
+.found-photo-link>span>.icon{width:17px;height:17px}
+.found-photo-link>strong{font-family:var(--serif);font-size:19px;font-weight:400}
+.found-photo-link>small{font-size:10px;margin-left:auto}
+.found-photo-link>small>.icon{width:15px;height:15px;margin-left:7px}
+.is-dark .found-photo-link{background:#354033;border-color:#7a8466;color:#bac4a4}
+@media(max-width:800px){.found-photo-link{flex-wrap:wrap;gap:13px}.found-photo-link>small{width:100%;margin-left:25px}}
+@media(max-width:560px){dialog.prologue-dialog{padding:29px 24px 17px;width:calc(100% - 24px)}.prologue-dialog .modal-heading h2{font-size:26px;margin-bottom:13px}.prologue-header{font-size:7px;letter-spacing:1px;padding:15px 0}.prologue-visual{height:145px;margin-bottom:22px}.sketch-page{height:135px;width:165px}.sketch-page>.bubu-portrait{width:75px;height:91px}.prologue-envelope{width:260px;padding:19px}.prologue-envelope>span{font-size:17px}.prologue-envelope>small{font-size:9px}.prologue-link{padding:19px 25px;min-width:230px}.prologue-link>span{font-size:20px}.prologue-scene h3{font-size:23px;line-height:1.6;margin:13px 0 17px;letter-spacing:.5px}.prologue-date{font-size:9px}.prologue-scene>p{font-size:12px;line-height:2}.prologue-scene>blockquote{font-size:17px;padding:13px 16px;margin:20px 0}.prologue-navigation{gap:5px}.prologue-navigation>.btn{font-size:11px;padding:11px 14px}.prologue-footnote>span{font-size:8px}.prologue-footnote>.btn{font-size:9px}.prologue-dots{gap:5px}.prologue-dots>.current{width:15px}.found-photo-link{width:100%;margin:20px 0 0;padding:18px;gap:12px}.found-photo-link>span{font-size:9px}.found-photo-link>strong{font-size:18px}.found-photo-link>small{font-size:9px;margin-left:0}.child-note{margin-top:23px}.child-note figcaption{font-size:9px}.archive-photo{padding:6px 6px 0}.archive-photo figcaption{font-size:7px;letter-spacing:.8px;padding:11px 5px}.photo-inspect{gap:6px}.photo-inspect>button{font-size:12px;padding:8px 10px;min-height:38px}.photo-detail{padding:17px}.photo-detail>h3{font-size:18px}.photo-detail>p{font-size:11px}.tape-photo-link>span{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.tape-photo-link{transition:none}.tape-photo-link:hover{transform:rotate(-.6deg)}}

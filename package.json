@@ -1,0 +1,7 @@
+{
+  "name": "bubu-happy-garden",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.mjs", "test": "node --test tests/engine.test.mjs", "check": "node --check dist/app.js && node --check dist/engine.js && node --check dist/bubu.js && node --check dist/prologue.js && node --check dist/story.js && node --check dist/investigation.js" }
+}
